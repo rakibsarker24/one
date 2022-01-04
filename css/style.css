@@ -1,0 +1,485 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    display: inline;
+}
+ol,
+li{
+    list-style-type: none;
+}
+
+/*======================================
+            Basic  css  End 
+========================================*/
+/*======================================
+            top part  css  Start 
+========================================*/
+#top-part{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+
+.main-menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+.main-menu ul li a:hover{
+    color: #753d9d;
+}
+
+
+/*======================================
+            top part  css  End 
+========================================*/
+/*======================================
+            banner  css  Start 
+========================================*/
+
+#banner{}
+
+.bg{
+    padding-top: 200px;
+    padding-bottom: 120px;
+}
+
+.banner-text h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-text span{
+    color: #753d9d;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-text p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px 200px;
+}
+.banner-text a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    padding:10px 15px;
+    border: 1px solid white;
+    margin-right:50px;
+    transition: .4s;
+}
+.banner-text a:hover{
+    background: #753d9d;
+    border: 1px solid #753d9d;;
+}
+/*======================================
+            Banner  css  End 
+========================================*/
+/*======================================
+            Blowm  css  Start 
+========================================*/
+
+#Blowm{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.blowm-left-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    padding-left: 42px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.blowm-left-content h2::after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 5px;
+    background: #753d9d;;
+    height: 200%;
+
+}
+.blowm-left-content span{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color:#753d9d;
+}
+.blowm-left-content h3{
+    font-size: 36px;
+    font-weight: 400;
+    display: block;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.blowm-left-content p{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0;
+    line-height: 22px;
+    padding-right: 20px;
+}
+.blowm-left-content a{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+    color: black;
+    border: 1px solid #753d9d;
+    transition: .4s;
+}
+.blowm-left-content a:hover{
+    border: 1px solid #753d9d;
+    background:#753d9d;
+    
+}
+
+
+/*======================================
+           Blowm  css  End 
+========================================*/
+/*======================================
+            icon  css  Start 
+========================================*/
+#icon{
+    margin-bottom: 80px;
+}
+.icon-header img{
+    padding-bottom: 20px;
+}
+.icon-header h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-header p{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*======================================
+            icon  css  End 
+========================================*/
+/*======================================
+             overflow css  Start 
+========================================*/
+#overflow{
+    margin-bottom: 80px;
+}
+.overflow-bg{
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.overflow-bg h3{
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+        display: block;
+        padding: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.overflow-bg a{
+font-size: 12px;
+font-weight: 500;
+color: white;
+font-family: 'Montserrat', sans-serif;
+padding: 10px 20px;
+margin-top: 15px;
+border-radius: 3px;
+background: #753d9d;
+transition: .4s;
+}
+.overflow-bg a:hover{
+background: transparent;
+transition: .4s;
+border:1px solid white;
+}
+/*======================================
+             overflow css  End 
+========================================*/
+/*======================================
+            gallery  css  Start 
+========================================*/
+
+#gallery{
+    margin-bottom: 80px;
+}
+.galery-left{
+    margin-bottom: 25px;
+    position: relative;
+}
+.galery-left h3{
+    position: absolute;
+    bottom:-2.5%;
+    left:0;
+    padding-right: 70.6%;
+    background: #753d9d;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+.galery-left h3:hover{
+    background: transparent;
+}
+.galery-right{
+    position: relative;
+}
+.galery-right h3 {
+    position: absolute;
+    bottom: -2.2%;
+    left: 0;
+    padding-right: 88.3%;
+    background: #753d9d;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+.galery-right2{
+    position: relative;
+}
+.galery-right2 {
+    width: 100%;
+    background: #753d9d;
+    height: 330px;
+    border-radius: 3px;
+}
+.galery-right2 h3 {
+    position: absolute;
+    bottom: -0.2%;
+    left: 0;
+    padding-right: 84.5%;
+   
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+.galery-right h3:hover{
+    background: transparent;
+}
+
+/*======================================
+            gallery  css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
+/*======================================
+              css  Start 
+========================================*/
+
+
+
+
+/*======================================
+              css  End 
+========================================*/
